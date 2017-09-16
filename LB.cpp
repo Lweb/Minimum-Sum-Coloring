@@ -67,7 +67,7 @@ int LB2() {
  	return res;
 }
 
-int LBMS() {
+int LBLL() {
 	int sum = 0, rem = V;
 	for (int i = 1; i <= k; i++) {
 		if (i * alpha + k - i <= V) sum += i * alpha, rem -= alpha;
@@ -76,13 +76,13 @@ int LBMS() {
 	return sum;
 }
 
-int LBOK() {
+int LBKK() {
 	return (V - k) + k * (k + 1) / 2;
 }
 
 int main() {
 	scanf("%d%d%d%d", &V, &alpha, &beta, &k);
 
-	printf("%d %d %d %d\n", LBOK(), LBMS(), LB1(), LB2());
+	printf("%d %d %d %d\n", LBKK(), LBLL(), LB1(), LB2());
 	return 0;
 }
