@@ -2,14 +2,23 @@
 ## Breif Introduction
 ### Directory Structure
 ├── alpha
+
 ├── comple.cpp
+
 ├── control.py
+
 ├── Graph
+
 ├── KPLEX.cpp
+
 ├── LB.cpp
+
 ├── MaxBG.cpp
+
 ├── Out
+
 └── README.md
+
 ### Enviroment you need
 * Linux(Suggest you to use Ubuntu)
 * python3
