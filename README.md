@@ -80,3 +80,5 @@ e 8 11
 e 9 11
 e 10 11
 ```
+### Maximum Independent Set solver
+We use *KPLEX* to solve maximum independent set, it implements the algorithm proposed by us before. Of course you can replace this maximum indepent set solver into other solver.
